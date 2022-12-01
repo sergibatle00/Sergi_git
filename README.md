@@ -70,7 +70,8 @@ Las etiquetas nos permiten referenciar commits de una forma más cómoda que usa
 
 Por ejemplo:
 
-![git log](git_checkout1.PNG)
+
+![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/3.2.PNG)
 
 ## 3. Examinado cambios de un commit respecto al anterior.
 
@@ -81,7 +82,7 @@ git show
 ```
 
 
-![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/3.2.PNG)
+![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/3.4.PNG)
 
 ## 4. Diferencias entre varios commits
 
@@ -96,6 +97,17 @@ git diff main..v1
 
 Así podemos ver los cambios del primer commit respecto al ultimo
 
+## Directorio de trabajo
+ 
+Son los datos que clonas desde el directorio git hasta tu pc 
+ 
+## Área de preparación (Staging area)
+
+Es el lugar en el que se encuentran datos de un proyecto y sus cambios.
+
+## Repositorio local
+
+Es tu directorio de trabajo que contiene los archivos, el segundo es el Index que actua como una zona intermedia, y el último es el HEAD que apunta al último commit realizado.
 
 
 
