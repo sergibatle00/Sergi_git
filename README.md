@@ -21,6 +21,9 @@ Usamos git pull origin main y git push origin main para subirlo al repositorio r
 
 ![git pull](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/1.4.PNG)
 
-Para devolver un archivo a su estado original usamos git reset
+Para devolver un archivo a un hash concreto usamos git checkout hash-de-la-revisión -- nombre-de-archivo
+
+![git pull](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/1.7.PNG)
+
 
 
