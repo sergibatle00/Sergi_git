@@ -45,6 +45,57 @@ Para devolver un archivo a un hash concreto usamos git checkout hash-de-la-revis
 
 # Practica 3
 
+Etiquetar commits
+
+Para etiquetar utilizamos el comando
+
+```
+git  tag  -a  nombre_etiqueta  -m  "Mensaje"   commit_a_etiquetar
+```
+
+
+![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/3.1.PNG)
+
+![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/2.3.PNG)
+
+Si por cualquier motivo nos equivocamos al crear la etiqueta podemos eliminarla con
+
+```
+git tag -d nombre_etiqueta
+```
+
+## 2. Usando etiquetas para movernos
+
+Las etiquetas nos permiten referenciar commits de una forma más cómoda que usando el identificador de hash.
+
+Por ejemplo:
+
+![git log](git_checkout1.PNG)
+
+## 3. Examinado cambios de un commit respecto al anterior.
+
+Para ver los cambios introducidos respecto al commit anterior hacemos:
+
+```
+git show
+```
+
+
+![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/3.2.PNG)
+
+## 4. Diferencias entre varios commits
+
+Usando el comando git diff podemos ver las diferencias entre una serie de commits:
+
+```
+git diff main..v1
+```
+
+
+![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/3.5.PNG)
+
+Así podemos ver los cambios del primer commit respecto al ultimo
+
 
 
 
