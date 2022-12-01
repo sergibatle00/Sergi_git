@@ -25,23 +25,27 @@ Para devolver un archivo a un hash concreto usamos git checkout hash-de-la-revis
 
 ![git pull](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/1.6.PNG)
 
-#Practica 2
+# Practica 2
 
-Comprobamos commits realizados con el comando git log --oneline --all
+## Comprobamos commits realizados con el comando git log --oneline --all
 
 ![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/2.PNG)
 
-Miramos el contenido del Readme en el último commit con el comando cat README.md
+## Miramos el contenido del Readme en el último commit con el comando cat README.md
 
 ![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/2.1.PNG)
 
-Nos movemos al primer commit usando el comando: git checkout [hash del commit] en este caso git checkout 711f4fb y comprobamos que ahora el main se encuentra en el primer commit con git log --oneline --all
+## Nos movemos al primer commit usando el comando: git checkout [hash del commit] en este caso git checkout 711f4fb y comprobamos que ahora el main se encuentra en el primer commit con git log --oneline --all
 
 ![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/2.3.PNG)
 
-Volvemos al último commit usando el comando git checkout main
+## Volvemos al último commit usando el comando git checkout main
 
 ![git log](https://github.com/sergibatle00/Sergi_git/blob/main/capturas/2.4.PNG)
+
+# Practica 3
+
+
 
 
 
